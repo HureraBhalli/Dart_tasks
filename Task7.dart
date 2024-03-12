@@ -14,8 +14,13 @@ void main() {
     Finalprice = ConsumedUnit * 30;
     print('Here is your Final Price: $Finalprice');
     print('Here is the unit Consumed: $ConsumedUnit');
-    print('The unit cost was 20');
+    print('The unit cost was 30');
+  } else if (ConsumedUnit > 200 && ConsumedUnit < 400) {
+    Finalprice = ConsumedUnit * 50;
+    print('Here is your Final Price: $Finalprice');
+    print('Here is the unit Consumed: $ConsumedUnit');
+    print('The unit cost was 50');
   } else {
-    print('Please write value in between 100 and 200');
+    print('Please write value in between 100 and 400');
   }
 }
