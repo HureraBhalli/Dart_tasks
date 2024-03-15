@@ -1,6 +1,9 @@
 void main() {
   int x = 10;
   int y = 40;
-
-  print(x * y);
+  if (x + y == 40) {
+    print('Ja war pra');
+  } else {
+    print('Ok ho gya fer');
+  }
 }
