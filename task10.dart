@@ -14,3 +14,6 @@ void perimeter(int a, int b) {
   print("The Square is $a");
   print("The rectangle is $b");
 }
+
+
+// function perimeter 
