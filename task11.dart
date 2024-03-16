@@ -5,4 +5,6 @@ void main() {
   print(x * y);
   print(x - y);
   print(x % y);
+
+  print('Result Checked Successfully');
 }
