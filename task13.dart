@@ -7,5 +7,5 @@ void main() {
   double result;
   result = (9 / 5 * temprature) + 32;
 
-  print('$temprature Calcius to $result farnheit');
+  print('$temprature Calcius to $result Farnhiet');
 }
