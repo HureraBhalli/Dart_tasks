@@ -1,9 +1,10 @@
 void main() {
-  int x = 10;
-  int y = 30;
-  if (x + y == 40) {
-    print('You executed Correctly');
-  } else {
-    print('Enter the correct Value');
+  for (var i = 0; i < 50; i++) {
+    if (i % 2 == 0) {
+      print('This is your number $i');
+    } else {
+      print('This is odd number $i');
+    }
   }
+  print('The End');
 }

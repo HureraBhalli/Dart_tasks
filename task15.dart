@@ -1,11 +1,10 @@
-import 'dart:io';
-
 void main() {
-  stdout.write('Enter the temperature : ');
-  double temprature = double.parse(stdin.readLineSync()!);
+  int sum = 0;
+  for (int i = 0; i < 20; i++) {
+    print('$i Old Sum value is $sum');
+    sum = sum + i;
+    print('The new sum is $sum');
+  }
 
-  double result;
-  result = (9 / 5 * temprature) + 32;
-
-  print('$temprature Calcius to $result farnheit');
+  print('Session End');
 }
