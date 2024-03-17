@@ -1,7 +1,5 @@
 import 'dart:io';
 
-import 'task22.dart';
-
 void main() {
   List<int> age = [];
   int NewAge = 0;
@@ -19,6 +17,6 @@ void main() {
   for (int i = 0; i < age.length; i++) {
     print('age ${age[i]}');
 
-    print(name());
+    // print(name());
   }
 }

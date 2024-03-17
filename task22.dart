@@ -5,10 +5,10 @@ void main() {
 }
 
 void sum(int number1, int number2) {
-  // int x = 20;
-  // int y = 30;
-  // int result = x * y;
-  // print(result);
+  int x = 20;
+  int y = 30;
+  int result = x * y;
+  print(result);
 
   print(number1 + number2);
 }
