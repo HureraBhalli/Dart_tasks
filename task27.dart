@@ -7,7 +7,6 @@ void main() {
   lst.add(2);
   lst.add("Ali");
   print(lst);
-  //lst.addAll
-  // lst.runtimeType;
+// lst.runtimeType;
   print(lst.runtimeType);
 }
