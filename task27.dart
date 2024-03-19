@@ -1,5 +1,5 @@
 void main() {
-  List lst = ["Ali", "Ahmed", "Umer", 20];
+  List<dynamic> lst = ["Ali", "Ahmed", "Umer", 20];
   print(lst);
 
   lst.clear();
@@ -7,6 +7,7 @@ void main() {
   lst.add(2);
   lst.add("Ali");
   print(lst);
+  //lst.addAll
   // lst.runtimeType;
   print(lst.runtimeType);
 }
